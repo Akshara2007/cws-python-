@@ -1,0 +1,12 @@
+"""
+Ask a number from user 
+"""
+num = int(input("Enter a number: "))
+factorial = 1
+
+while num > 0:
+    factorial*=num
+    num = num - 1
+    
+print(factorial)
+print("Factorial of the given number is: ", factorial)
